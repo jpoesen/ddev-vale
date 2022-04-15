@@ -1,7 +1,7 @@
 # Simple template to demonstrate addon-template
 version: '3.6'
 services:
-  addon-template:
+  vale:
     container_name: ddev-${DDEV_SITENAME}-vale
     image: jdkato/vale
     # command: tail -f /dev/null
