@@ -12,7 +12,7 @@ project_files:
 # - extra_files/
 # - somefile.sh
   - docker-compose.vale.yaml
-  - vale/
+  # - vale/
 
 # List of files and directories that are copied into the global .ddev directory
 global_files:
