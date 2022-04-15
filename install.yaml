@@ -1,4 +1,4 @@
-name: addon-template
+name: vale
 
 # pre_install_actions - list of actions to run before installing the addon.
 # Examples would be removing an extraneous docker volume,
@@ -17,6 +17,8 @@ project_files:
 global_files:
 # - commands
 # - homeadditions
+  - docker-compose.vale.yaml
+  - vale/
 
 post_install_actions:
 # - chmod +x ~/.ddev/commands/web/somecommand
